@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API Wrapper</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Weather API Wrapper</h1>
+        <p>Get real-time weather information for any city.</p>
+    </header>
+
+    <main>
+
+        <!-- City Search Section -->
+        <section>
+            <h2>Search Weather</h2>
+
+            <form action="/" method="post">
+                <label for="city">Enter city name:</label>
+                <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    placeholder="e.g. Lagos"
+                    required
+                >
+
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <!-- Weather Information Section -->
+        <section>
+            <h2>Weather Information</h2>
+
+            <h3>26°C</h3>
+            <p>Partly Cloudy</p>
+            <p>Location: Lagos, Nigeria</p>
+
+            <h3>Weather Details</h3>
+
+            <ul>
+                <li>Humidity: 75%</li>
+                <li>Wind Speed: 14 km/h</li>
+                <li>Feels Like: 28°C</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Powered by Weather API</p>
+        <p>Copyright &copy; 2026 Weather API Wrapper</p>
+    </footer>
+
+</body>
+
+</html>
